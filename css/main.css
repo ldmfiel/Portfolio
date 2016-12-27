@@ -2,6 +2,12 @@ h1 {
     color:blue;
 }
 
+@media only screen and (max-width: 300px){
+    [class*="col-"]{
+         display: none;
+    }
+}
+
 .grid
 {
     margin:0 auto;
@@ -9,8 +15,9 @@ h1 {
 
 .row
 {
+   
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
 .inline
@@ -20,63 +27,79 @@ h1 {
     outline-style: inset;
 }
 
+
+
+/* column of every width between 1/12 and 12/12 */
+
 .col-1
 {
-    width: 8.33%;
+    padding: 1%;
+    width: 6.33%;
 }
 
 .col-2
 {
-    width: 16.66%;
+    padding: 1%;
+    width: 14.66%;
 }
 
 .col-3
 {
-    width: 24.99%;
+    padding: 1%;
+    width: 22.99%;
 }
 
 .col-4
 {
-    width: 33.32%;
+    padding: 1%;
+    width: 31.32%;
 }
 
 .col-5
 {
-    width: 41.65%;
+    padding: 1%;
+    width: 39.65%;
 }
 
 .col-6
 {
-    width: 49.98%;
+    padding: 1%;
+    width: 47.98%;
 }
 
 .col-7
 {
-    width: 58.31%;
+    padding: 1%;
+    width: 56.31%;
 }
 
 .col-8
 {
-    width: 66.64%;
+    padding: 1%;
+    width: 64.64%;
 }
 
 .col-9
 {
-    width: 74.97%;
+    padding: 1%;
+    width: 72.97%;
 }
 
 .col-10
 {
-    width: 83.3%;
+    padding: 1%;
+    width: 81.3%;
 }
 
 .col-11
 {
-    width: 91.63%;
+    padding: 1%;
+    width: 89.63%;
 }
 
 .col-12
 {
-    width: 100%;
+    padding: 1%;
+    width: 98%;
 }
 

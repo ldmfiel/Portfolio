@@ -1,0 +1,142 @@
+
+@media only screen and (max-width: 400px){
+    .hidem{
+         display: none;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .logo
+    {
+        margin: auto;
+    }
+}
+
+img
+{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.grid
+{
+    margin:0 auto;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inline
+{
+    outline-color: black;
+    outline-width: 1px;
+    outline-style: inset;
+}
+
+.hidem
+{
+
+}
+
+.title {
+    color:#747704;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+}
+
+
+.subtitle{
+    color:#BCBBBB;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.logo
+{
+}
+
+.projectimg
+{
+    margin: auto;
+    max-width:300;
+    max-height:200
+}
+/* column of every width between 1/12 and 12/12 */
+
+.col-1
+{
+    padding: 1%;
+    width: 6.33%;
+   
+}
+
+.col-2
+{
+    padding: 1%;
+    width: 14.66%;
+}
+
+.col-3
+{
+    padding: 1%;
+    width: 22.99%;
+}
+
+.col-4
+{
+    padding: 1%;
+    width: 31.32%;
+}
+
+.col-5
+{
+    padding: 1%;
+    width: 39.65%;
+}
+
+.col-6
+{
+    padding: 1%;
+    width: 47.98%;
+}
+
+.col-7
+{
+    padding: 1%;
+    width: 56.31%;
+}
+
+.col-8
+{
+    padding: 1%;
+    width: 64.64%;
+}
+
+.col-9
+{
+    padding: 1%;
+    width: 72.97%;
+}
+
+.col-10
+{
+    padding: 1%;
+    width: 81.3%;
+}
+
+.col-11
+{
+    padding: 1%;
+    width: 89.63%;
+}
+
+.col-12
+{
+    padding: 1%;
+    width: 98%;
+}
+

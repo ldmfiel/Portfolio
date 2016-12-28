@@ -92,6 +92,10 @@ h3
 {
     display: flex;
     flex-wrap: wrap;
+    
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    
 }
 
 .inline

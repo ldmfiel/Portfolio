@@ -1,3 +1,6 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 
 @media only screen and (max-width: 400px){
     .hidem{
@@ -47,13 +50,11 @@ img
 
 h2
 {
-    font-family: sans-serif;
     color:#BCBBBB;
 }
 
 h3
 {
-    font-family: sans-serif;
     color:#BCBBBB;
 }
 
@@ -65,14 +66,12 @@ h3
 
 .title {
     color:#747704;
-    font-family: sans-serif;
     margin-bottom: 0px;
 }
 
 
 .subtitle{
     color:#BCBBBB;
-    font-family: sans-serif;
     margin-top: auto;
 }
 
@@ -89,7 +88,6 @@ h3
 
 .projecturl
 {
-    font-family: sans-serif;
     color:#BCBBBB;
 }
 
